@@ -22,6 +22,7 @@
     <MtouchDebug>true</MtouchDebug>
     <MtouchFastDev>true</MtouchFastDev>
     <IOSDebuggerPort>59137</IOSDebuggerPort>
+    <MtouchLink>SdkOnly</MtouchLink>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -48,7 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Com.OneSignal.Abstractions\Com.OneSignal.Abstractions.csproj">
-      <Project>{4AAD1A77-175C-46BF-9C64-B3042A20CCFA}</Project>
+      <Project>{F218B3F7-077C-4BBB-9CAA-0DCE716C5EE4}</Project>
       <Name>Com.OneSignal.Abstractions</Name>
     </ProjectReference>
     <ProjectReference Include="..\OneSignal.iOS.Binding\OneSignal.iOS.Binding.csproj">
